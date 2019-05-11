@@ -120,6 +120,7 @@ class LocalGroupInfo:
 		if level == 0:
 			lgi.sid = SID.from_address(lg.sid)
 			return lgi
+		
 		elif level == 1:
 			lgi.sid = SID.from_address(lg.sid)
 			lgi.sidusage = lg.sidusage
